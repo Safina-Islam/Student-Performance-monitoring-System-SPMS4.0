@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Feculty Dashboard</title>
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/questionform.css">
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                SPMS 3.0
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="co-analysis.html" target="_self">Co Analysis</a></li>
+                <li><a href="index.html" target="_self">Dashboard</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- div row-1 starts here -->
+
+    <form  method="POST">
+        <div class="data-entry-form">
+            <div>
+                <div class="col-auto">
+                    <label for="studentID" class="col-form-label">Student ID</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="studentID" class="form-control">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-auto">
+                    <label for="educationalYear" class="col-form-label">Educational Year</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="educationalYear" class="form-control">
+                </div>
+            </div>
+
+
+            <div>
+                <div class="col-auto">
+                    <label for="educationalSemester" class="col-form-label">Educational Semester</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="educationalSemester" class="form-control">
+                </div>
+            </div>
+
+
+            <div>
+                <div class="col-auto">
+                    <label for="enrolledCourse" class="col-form-label">Enrolled Course</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="enrolledCourse" class="form-control">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-auto">
+                    <label for="enrolledSection" class="col-form-label">Enrolled Section</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="enrolledSection" class="form-control">
+                </div>
+            </div>
+
+            <div>
+                <div class="col-auto">
+                    <label for="obtaineGrade" class="col-form-label">Obtanined Grde</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="obtaineGrade" class="form-control">
+                </div>
+            </div>
+
+
+            <div>
+                <div class="col-auto">
+                    <label for="cvsFile" class="col-form-label">CVS File</label>
+                </div>
+                <div class="col-auto">
+                    <input type="file" id="cvsFile" class="form-control">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="storeButton">
+
+            <div class="col-auto">
+                <a class="btn btn-primary mb-3 goBack" href="index.html">Go Back</a>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3 storeData">Store Data</button>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

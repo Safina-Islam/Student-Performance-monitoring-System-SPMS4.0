@@ -1,0 +1,51 @@
+.question-form {
+    color: white;
+    font-weight: bold;
+}
+
+.question-row1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    border: 2px solid #6698FF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mark {
+    background-color: white;
+    border: none;
+}
+
+.submitButton {
+    margin-left: 44%;
+    width: 150px;
+    height: 38px;
+    color: white;
+    background-color: #6698FF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.submitButton:hover {
+    background: linear-gradient(90deg, #87CEFA, #00BFFF);
+}
+
+.data-entry-form{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 500px;
+
+}
+
+.buttons{
+    display:flex; flex-direction: row; margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.storeButton,.backButton{
+    margin:0px 40px;
+}

@@ -1,0 +1,136 @@
+<?php
+include 'connect.php';
+?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Feculty Dashboard</title>
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="questionform.css">
+    
+  <style>
+    
+    body{
+    background-color:#155977;
+    }
+
+        ::placeholder{
+          color:white;
+        }
+
+        ::-ms-input-placeholder{
+          color:white;
+        }
+
+        :-ms-input-placeholder{
+          color:white;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            SPMS 3.0
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <ul>
+            <li><a href="add-co.html" target="_self">View Co</a></li>
+            <li><a href="index.html" target="_self">Dashboard</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+  <!-- div row-1 starts here -->
+
+  <form action="addExamConfig.php" method="POST">
+      <div style="display:flex;justify-content:space-evenly;margin-top:15px;">
+
+      </div>
+
+  <!-- div row-1 ends here -->
+
+
+
+
+    <!-- div row-2 starts here -->
+
+    <div style="display:flex;justify-content:space-evenly;margin-top:15px;">
+
+    </div>
+    
+    <div style="display:flex;justify-content:center;">
+    <div style="margin-top:15px; width:85%;" class="background">
+            <div class="question-row1">
+  
+                <label class="question-form">
+                 Student ID 
+                <input type="text" class="question-number" name="questionNum1">
+                </label>
+
+                <label class="question-form ml-2">
+                  Educational year
+                <input type="text" class="question-details" name="questionDetails1">
+                </label>
+
+                <label class="question-form">
+                 Educational semester
+                <input type="text" class="mark" name="mark1">
+                </label>
+
+                <label class="question-form">
+                 Educational semester
+                <input type="text" class="coNum" name="coNum1">
+                </label>
+                <label class="question-form">
+                 Enrolled section
+                <input type="text" class="coNum" name="coNum1">
+                </label>
+                <label class="question-form">
+                 Obtained grade
+                <input type="text" class="coNum" name="coNum1">
+                </label>
+                <label class="question-form">
+                 Add CSV File
+                    <input type="file" class="coNum" name="coNum1">
+                </label>
+            </div>
+
+            <div>
+              <a class="btn btn-outline-primary text-white" href="index.html">Go Back</a>
+              <input type="button" style="margin-top:20px;" name="submit" value="Create CO Percentage" class="submitButton">
+            </div>
+        
+        </div>   
+      </div>  
+    </form>
+
+  </body>
+
+</html>
